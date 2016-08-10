@@ -45,9 +45,9 @@ gulp.task('buildfinaljs', function(){
 
 bannerSizes.forEach(function(bannerSize){
   gulp.task('zip-' + bannerSize, function() {
-      return gulp.src(config.buildPath + '/{index.html,' + bannerSize + '.png}')
+      return gulp.src(config.buildPath + '/{index.html,' + bannerSize + '.jpg,*.png}')
           .pipe(rename(function (path) {
-            if(path.extname === '.png'){
+            if(path.extname === '.jpg'){
               path.basename = 'preview';
             }
           }))
@@ -57,12 +57,17 @@ bannerSizes.forEach(function(bannerSize){
 });
 
 gulp.task('screenshot', function (){
-  return new Pageres({delay: 4, filename: '<%= size %>'})
+  return new Pageres({delay: 2, filename: '<%= size %>', format: 'jpg'})
     .src(config.buildPath + '/index.html', bannerSizes)
     .dest(config.buildPath + '/')
     .run()
 });
+/* oles task */
+gulp.task('copy', function (){
+  gulp.src(['img/**/*']).pipe(gulp.dest('build/'));
+});
+
 
 gulp.task('build', function() {
-  return runSequence('clean-build-folder', 'sass:dist', 'webpack', 'buildfinalcss', 'buildfinaljs', 'buildhtml', 'clean-dist-folder', 'screenshot', zipTasks);
+  return runSequence('clean-build-folder','copy', 'sass:dist', 'webpack', 'buildfinalcss', 'buildfinaljs', 'buildhtml', 'clean-dist-folder', 'screenshot', zipTasks);
 });

@@ -58,6 +58,10 @@ body{
       width: 320px;
       height: 250px;
     }
+     @media #{$breakpoint_320X400} {
+      width: 320px;
+      height: 400px;
+    }
 	@media #{$breakpoint_336X280} {
       width: 336px;
       height: 280px;
@@ -134,5 +138,21 @@ body{
     @media #{$breakpoint_980X600} {
       width: 980px;
       height: 600px;
+    }
+    @media #{$breakpoint_1010X150} {
+      width: 1010px;
+      height: 150px;
+    }
+    @media #{$breakpoint_1010X250} {
+      width: 1010px;
+      height: 250px;
+    }
+    @media #{$breakpoint_1010X300} {
+      width: 1010px;
+      height: 300px;
+    }
+    @media #{$breakpoint_1192X300} {
+      width: 1192px;
+      height: 300px;
     }
 }

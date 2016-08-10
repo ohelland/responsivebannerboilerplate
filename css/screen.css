@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+#banner {
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  @media screen and (width: 120px) and (height: 600px) {
+    #banner {
+      width: 120px;
+      height: 600px; } }
+  @media screen and (width: 160px) and (height: 600px) {
+    #banner {
+      width: 160px;
+      height: 600px; } }
+  @media screen and (width: 180px) and (height: 500px) {
+    #banner {
+      width: 180px;
+      height: 500px; } }
+  @media screen and (width: 200px) and (height: 200px) {
+    #banner {
+      width: 200px;
+      height: 200px; } }
+  @media screen and (width: 250px) and (height: 250px) {
+    #banner {
+      width: 250px;
+      height: 250px; } }
+  @media screen and (width: 254px) and (height: 133px) {
+    #banner {
+      width: 254px;
+      height: 133px; } }
+  @media screen and (width: 300px) and (height: 250px) {
+    #banner {
+      width: 300px;
+      height: 250px; } }
+  @media screen and (width: 300px) and (height: 350px) {
+    #banner {
+      width: 300px;
+      height: 350px; } }
+  @media screen and (width: 300px) and (height: 600px) {
+    #banner {
+      width: 300px;
+      height: 600px; } }
+  @media screen and (width: 320px) and (height: 50px) {
+    #banner {
+      width: 320px;
+      height: 050px; } }
+  @media screen and (width: 320px) and (height: 100px) {
+    #banner {
+      width: 320px;
+      height: 100px; } }
+  @media screen and (width: 320px) and (height: 250px) {
+    #banner {
+      width: 320px;
+      height: 250px; } }
+  @media screen and (width: 320px) and (height: 400px) {
+    #banner {
+      width: 320px;
+      height: 400px; } }
+  @media screen and (width: 336px) and (height: 280px) {
+    #banner {
+      width: 336px;
+      height: 280px; } }
+  @media screen and (width: 468px) and (height: 60px) {
+    #banner {
+      width: 468px;
+      height: 60px; } }
+  @media screen and (width: 468px) and (height: 300px) {
+    #banner {
+      width: 468px;
+      height: 300px; } }
+  @media screen and (width: 468px) and (height: 400px) {
+    #banner {
+      width: 468px;
+      height: 400px; } }
+  @media screen and (width: 468px) and (height: 468px) {
+    #banner {
+      width: 468px;
+      height: 468px; } }
+  @media screen and (width: 468px) and (height: 600px) {
+    #banner {
+      width: 468px;
+      height: 600px; } }
+  @media screen and (width: 470px) and (height: 246px) {
+    #banner {
+      width: 470px;
+      height: 246px; } }
+  @media screen and (width: 560px) and (height: 292px) {
+    #banner {
+      width: 560px;
+      height: 292px; } }
+  @media screen and (width: 580px) and (height: 400px) {
+    #banner {
+      width: 580px;
+      height: 400px; } }
+  @media screen and (width: 580px) and (height: 500px) {
+    #banner {
+      width: 580px;
+      height: 500px; } }
+  @media screen and (width: 620px) and (height: 530px) {
+    #banner {
+      width: 620px;
+      height: 530px; } }
+  @media screen and (width: 728px) and (height: 90px) {
+    #banner {
+      width: 728px;
+      height: 90px; } }
+  @media screen and (width: 800px) and (height: 150px) {
+    #banner {
+      width: 800px;
+      height: 150px; } }
+  @media screen and (width: 970px) and (height: 90px) {
+    #banner {
+      width: 970px;
+      height: 90px; } }
+  @media screen and (width: 980px) and (height: 150px) {
+    #banner {
+      width: 980px;
+      height: 150px; } }
+  @media screen and (width: 980px) and (height: 250px) {
+    #banner {
+      width: 980px;
+      height: 250px; } }
+  @media screen and (width: 980px) and (height: 300px) {
+    #banner {
+      width: 980px;
+      height: 300px; } }
+  @media screen and (width: 980px) and (height: 400px) {
+    #banner {
+      width: 980px;
+      height: 400px; } }
+  @media screen and (width: 980px) and (height: 600px) {
+    #banner {
+      width: 980px;
+      height: 600px; } }
+  @media screen and (width: 1010px) and (height: 150px) {
+    #banner {
+      width: 1010px;
+      height: 150px; } }
+  @media screen and (width: 1010px) and (height: 250px) {
+    #banner {
+      width: 1010px;
+      height: 250px; } }
+  @media screen and (width: 1010px) and (height: 300px) {
+    #banner {
+      width: 1010px;
+      height: 300px; } }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #028ea3;
+  font-family: Helvetica,Roboto,Arial,sans-serif;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.4; }
+
+/*# sourceMappingURL=screen.css.map */

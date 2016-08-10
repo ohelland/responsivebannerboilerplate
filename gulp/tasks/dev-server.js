@@ -21,7 +21,7 @@ gulp.task('watch:html', function() {
 });
 
 gulp.task('watch:js', function() {
-  return gulp.watch(config.jsWatchSource, ['webpack'], function() {
+  return gulp.watch([config.jsWatchSource, 'bannerConfig.js'], ['webpack'], function() {
     gulp.src(config.jsWatchSource)
     .pipe(connect.reload());
   });
